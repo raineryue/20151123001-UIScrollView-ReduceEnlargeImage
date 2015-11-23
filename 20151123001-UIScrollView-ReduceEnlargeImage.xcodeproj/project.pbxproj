@@ -12,7 +12,6 @@
 		D5C8392F1C02F8A8009473CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C8392E1C02F8A8009473CA /* ViewController.m */; };
 		D5C839321C02F8A8009473CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C839301C02F8A8009473CA /* Main.storyboard */; };
 		D5C839341C02F8A8009473CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C839331C02F8A8009473CA /* Assets.xcassets */; };
-		D5C839371C02F8A8009473CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C839351C02F8A8009473CA /* LaunchScreen.storyboard */; };
 		D5C839421C02F8A8009473CA /* _0151123001_UIScrollView_ReduceEnlargeImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C839411C02F8A8009473CA /* _0151123001_UIScrollView_ReduceEnlargeImageTests.m */; };
 		D5C8394D1C02F8A8009473CA /* _0151123001_UIScrollView_ReduceEnlargeImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C8394C1C02F8A8009473CA /* _0151123001_UIScrollView_ReduceEnlargeImageUITests.m */; };
 /* End PBXBuildFile section */
@@ -43,7 +42,6 @@
 		D5C8392E1C02F8A8009473CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D5C839311C02F8A8009473CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5C839331C02F8A8009473CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D5C839361C02F8A8009473CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D5C839381C02F8A8009473CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5C8393D1C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20151123001-UIScrollView-ReduceEnlargeImageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C839411C02F8A8009473CA /* _0151123001_UIScrollView_ReduceEnlargeImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0151123001_UIScrollView_ReduceEnlargeImageTests.m; sourceTree = "<group>"; };
@@ -107,7 +105,6 @@
 				D5C8392E1C02F8A8009473CA /* ViewController.m */,
 				D5C839301C02F8A8009473CA /* Main.storyboard */,
 				D5C839331C02F8A8009473CA /* Assets.xcassets */,
-				D5C839351C02F8A8009473CA /* LaunchScreen.storyboard */,
 				D5C839381C02F8A8009473CA /* Info.plist */,
 				D5C839271C02F8A8009473CA /* Supporting Files */,
 			);
@@ -243,7 +240,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5C839371C02F8A8009473CA /* LaunchScreen.storyboard in Resources */,
 				D5C839341C02F8A8009473CA /* Assets.xcassets in Resources */,
 				D5C839321C02F8A8009473CA /* Main.storyboard in Resources */,
 			);
@@ -314,14 +310,6 @@
 				D5C839311C02F8A8009473CA /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		D5C839351C02F8A8009473CA /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D5C839361C02F8A8009473CA /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -411,6 +399,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "20151123001-UIScrollView-ReduceEnlargeImage/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0151123001-UIScrollView-ReduceEnlargeImage";
@@ -422,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = "20151123001-UIScrollView-ReduceEnlargeImage/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0151123001-UIScrollView-ReduceEnlargeImage";
