@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D5C839291C02F8A8009473CA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C839281C02F8A8009473CA /* main.m */; };
+		D5C8392C1C02F8A8009473CA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C8392B1C02F8A8009473CA /* AppDelegate.m */; };
+		D5C8392F1C02F8A8009473CA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C8392E1C02F8A8009473CA /* ViewController.m */; };
+		D5C839321C02F8A8009473CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C839301C02F8A8009473CA /* Main.storyboard */; };
+		D5C839341C02F8A8009473CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5C839331C02F8A8009473CA /* Assets.xcassets */; };
+		D5C839371C02F8A8009473CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5C839351C02F8A8009473CA /* LaunchScreen.storyboard */; };
+		D5C839421C02F8A8009473CA /* _0151123001_UIScrollView_ReduceEnlargeImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C839411C02F8A8009473CA /* _0151123001_UIScrollView_ReduceEnlargeImageTests.m */; };
+		D5C8394D1C02F8A8009473CA /* _0151123001_UIScrollView_ReduceEnlargeImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5C8394C1C02F8A8009473CA /* _0151123001_UIScrollView_ReduceEnlargeImageUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5C8393E1C02F8A8009473CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5C8391C1C02F8A8009473CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5C839231C02F8A8009473CA;
+			remoteInfo = "20151123001-UIScrollView-ReduceEnlargeImage";
+		};
+		D5C839491C02F8A8009473CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5C8391C1C02F8A8009473CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5C839231C02F8A8009473CA;
+			remoteInfo = "20151123001-UIScrollView-ReduceEnlargeImage";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D5C839241C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20151123001-UIScrollView-ReduceEnlargeImage.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C839281C02F8A8009473CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5C8392A1C02F8A8009473CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5C8392B1C02F8A8009473CA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5C8392D1C02F8A8009473CA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5C8392E1C02F8A8009473CA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5C839311C02F8A8009473CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5C839331C02F8A8009473CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5C839361C02F8A8009473CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D5C839381C02F8A8009473CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5C8393D1C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20151123001-UIScrollView-ReduceEnlargeImageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C839411C02F8A8009473CA /* _0151123001_UIScrollView_ReduceEnlargeImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0151123001_UIScrollView_ReduceEnlargeImageTests.m; sourceTree = "<group>"; };
+		D5C839431C02F8A8009473CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5C839481C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20151123001-UIScrollView-ReduceEnlargeImageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5C8394C1C02F8A8009473CA /* _0151123001_UIScrollView_ReduceEnlargeImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _0151123001_UIScrollView_ReduceEnlargeImageUITests.m; sourceTree = "<group>"; };
+		D5C8394E1C02F8A8009473CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5C839211C02F8A8009473CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C8393A1C02F8A8009473CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C839451C02F8A8009473CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5C8391B1C02F8A8009473CA = {
+			isa = PBXGroup;
+			children = (
+				D5C839261C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImage */,
+				D5C839401C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImageTests */,
+				D5C8394B1C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImageUITests */,
+				D5C839251C02F8A8009473CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5C839251C02F8A8009473CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5C839241C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImage.app */,
+				D5C8393D1C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImageTests.xctest */,
+				D5C839481C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5C839261C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImage */ = {
+			isa = PBXGroup;
+			children = (
+				D5C8392A1C02F8A8009473CA /* AppDelegate.h */,
+				D5C8392B1C02F8A8009473CA /* AppDelegate.m */,
+				D5C8392D1C02F8A8009473CA /* ViewController.h */,
+				D5C8392E1C02F8A8009473CA /* ViewController.m */,
+				D5C839301C02F8A8009473CA /* Main.storyboard */,
+				D5C839331C02F8A8009473CA /* Assets.xcassets */,
+				D5C839351C02F8A8009473CA /* LaunchScreen.storyboard */,
+				D5C839381C02F8A8009473CA /* Info.plist */,
+				D5C839271C02F8A8009473CA /* Supporting Files */,
+			);
+			path = "20151123001-UIScrollView-ReduceEnlargeImage";
+			sourceTree = "<group>";
+		};
+		D5C839271C02F8A8009473CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5C839281C02F8A8009473CA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5C839401C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5C839411C02F8A8009473CA /* _0151123001_UIScrollView_ReduceEnlargeImageTests.m */,
+				D5C839431C02F8A8009473CA /* Info.plist */,
+			);
+			path = "20151123001-UIScrollView-ReduceEnlargeImageTests";
+			sourceTree = "<group>";
+		};
+		D5C8394B1C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D5C8394C1C02F8A8009473CA /* _0151123001_UIScrollView_ReduceEnlargeImageUITests.m */,
+				D5C8394E1C02F8A8009473CA /* Info.plist */,
+			);
+			path = "20151123001-UIScrollView-ReduceEnlargeImageUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5C839231C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C839511C02F8A8009473CA /* Build configuration list for PBXNativeTarget "20151123001-UIScrollView-ReduceEnlargeImage" */;
+			buildPhases = (
+				D5C839201C02F8A8009473CA /* Sources */,
+				D5C839211C02F8A8009473CA /* Frameworks */,
+				D5C839221C02F8A8009473CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "20151123001-UIScrollView-ReduceEnlargeImage";
+			productName = "20151123001-UIScrollView-ReduceEnlargeImage";
+			productReference = D5C839241C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5C8393C1C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C839541C02F8A8009473CA /* Build configuration list for PBXNativeTarget "20151123001-UIScrollView-ReduceEnlargeImageTests" */;
+			buildPhases = (
+				D5C839391C02F8A8009473CA /* Sources */,
+				D5C8393A1C02F8A8009473CA /* Frameworks */,
+				D5C8393B1C02F8A8009473CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5C8393F1C02F8A8009473CA /* PBXTargetDependency */,
+			);
+			name = "20151123001-UIScrollView-ReduceEnlargeImageTests";
+			productName = "20151123001-UIScrollView-ReduceEnlargeImageTests";
+			productReference = D5C8393D1C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D5C839471C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5C839571C02F8A8009473CA /* Build configuration list for PBXNativeTarget "20151123001-UIScrollView-ReduceEnlargeImageUITests" */;
+			buildPhases = (
+				D5C839441C02F8A8009473CA /* Sources */,
+				D5C839451C02F8A8009473CA /* Frameworks */,
+				D5C839461C02F8A8009473CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5C8394A1C02F8A8009473CA /* PBXTargetDependency */,
+			);
+			name = "20151123001-UIScrollView-ReduceEnlargeImageUITests";
+			productName = "20151123001-UIScrollView-ReduceEnlargeImageUITests";
+			productReference = D5C839481C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5C8391C1C02F8A8009473CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = Rainer;
+				TargetAttributes = {
+					D5C839231C02F8A8009473CA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D5C8393C1C02F8A8009473CA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D5C839231C02F8A8009473CA;
+					};
+					D5C839471C02F8A8009473CA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D5C839231C02F8A8009473CA;
+					};
+				};
+			};
+			buildConfigurationList = D5C8391F1C02F8A8009473CA /* Build configuration list for PBXProject "20151123001-UIScrollView-ReduceEnlargeImage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5C8391B1C02F8A8009473CA;
+			productRefGroup = D5C839251C02F8A8009473CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5C839231C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImage */,
+				D5C8393C1C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImageTests */,
+				D5C839471C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5C839221C02F8A8009473CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C839371C02F8A8009473CA /* LaunchScreen.storyboard in Resources */,
+				D5C839341C02F8A8009473CA /* Assets.xcassets in Resources */,
+				D5C839321C02F8A8009473CA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C8393B1C02F8A8009473CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C839461C02F8A8009473CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5C839201C02F8A8009473CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C8392F1C02F8A8009473CA /* ViewController.m in Sources */,
+				D5C8392C1C02F8A8009473CA /* AppDelegate.m in Sources */,
+				D5C839291C02F8A8009473CA /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C839391C02F8A8009473CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C839421C02F8A8009473CA /* _0151123001_UIScrollView_ReduceEnlargeImageTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5C839441C02F8A8009473CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5C8394D1C02F8A8009473CA /* _0151123001_UIScrollView_ReduceEnlargeImageUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5C8393F1C02F8A8009473CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5C839231C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImage */;
+			targetProxy = D5C8393E1C02F8A8009473CA /* PBXContainerItemProxy */;
+		};
+		D5C8394A1C02F8A8009473CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5C839231C02F8A8009473CA /* 20151123001-UIScrollView-ReduceEnlargeImage */;
+			targetProxy = D5C839491C02F8A8009473CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5C839301C02F8A8009473CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5C839311C02F8A8009473CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5C839351C02F8A8009473CA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5C839361C02F8A8009473CA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5C8394F1C02F8A8009473CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5C839501C02F8A8009473CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5C839521C02F8A8009473CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20151123001-UIScrollView-ReduceEnlargeImage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0151123001-UIScrollView-ReduceEnlargeImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5C839531C02F8A8009473CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "20151123001-UIScrollView-ReduceEnlargeImage/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0151123001-UIScrollView-ReduceEnlargeImage";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5C839551C02F8A8009473CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20151123001-UIScrollView-ReduceEnlargeImageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0151123001-UIScrollView-ReduceEnlargeImageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20151123001-UIScrollView-ReduceEnlargeImage.app/20151123001-UIScrollView-ReduceEnlargeImage";
+			};
+			name = Debug;
+		};
+		D5C839561C02F8A8009473CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "20151123001-UIScrollView-ReduceEnlargeImageTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0151123001-UIScrollView-ReduceEnlargeImageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/20151123001-UIScrollView-ReduceEnlargeImage.app/20151123001-UIScrollView-ReduceEnlargeImage";
+			};
+			name = Release;
+		};
+		D5C839581C02F8A8009473CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20151123001-UIScrollView-ReduceEnlargeImageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0151123001-UIScrollView-ReduceEnlargeImageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20151123001-UIScrollView-ReduceEnlargeImage";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D5C839591C02F8A8009473CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "20151123001-UIScrollView-ReduceEnlargeImageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rainer.-0151123001-UIScrollView-ReduceEnlargeImageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "20151123001-UIScrollView-ReduceEnlargeImage";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5C8391F1C02F8A8009473CA /* Build configuration list for PBXProject "20151123001-UIScrollView-ReduceEnlargeImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C8394F1C02F8A8009473CA /* Debug */,
+				D5C839501C02F8A8009473CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5C839511C02F8A8009473CA /* Build configuration list for PBXNativeTarget "20151123001-UIScrollView-ReduceEnlargeImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C839521C02F8A8009473CA /* Debug */,
+				D5C839531C02F8A8009473CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5C839541C02F8A8009473CA /* Build configuration list for PBXNativeTarget "20151123001-UIScrollView-ReduceEnlargeImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C839551C02F8A8009473CA /* Debug */,
+				D5C839561C02F8A8009473CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D5C839571C02F8A8009473CA /* Build configuration list for PBXNativeTarget "20151123001-UIScrollView-ReduceEnlargeImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5C839581C02F8A8009473CA /* Debug */,
+				D5C839591C02F8A8009473CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5C8391C1C02F8A8009473CA /* Project object */;
+}
